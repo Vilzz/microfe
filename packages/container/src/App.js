@@ -9,5 +9,5 @@ const App = () => {
     </div>
   )
 }
-// some comments blablabla
+// some comments
 export default App
