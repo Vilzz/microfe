@@ -267,7 +267,7 @@ import Column from 'primevue/column';
 import DataTable from 'primevue/datatable';
 import Chart from 'primevue/chart';
 import ProgressBar from 'primevue/progressbar';
-
+//Vue app
 export default {
   components: {
     ProgressBar,
