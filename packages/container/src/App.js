@@ -13,7 +13,7 @@ const AuthLazy = lazy(() => import('./components/AuthApp'))
 const DashboardLazy = lazy(() => import('./components/DashboardApp'))
 
 const App = () => {
-  const [isSignedIn, setIsSignedIn] = useState(true)
+  const [isSignedIn, setIsSignedIn] = useState(false)
   const generateClassName = createGenerateClassName({
     productionPrefix: 'co',
   })
